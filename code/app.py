@@ -9,7 +9,7 @@ app = FastAPI()
 
 @app.get("/")
 def index():
-    return "Hello, from AWS Lambda!"
+    return "Hello, from AWS Lambda !!!!"
 
 
 handler = Mangum(app, lifespan="off")
